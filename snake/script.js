@@ -85,7 +85,7 @@ function movement(event){
     const upKey = 38;
     const downKey = 40;
 
-    if(isDirectionChanging) return; // it check if snake is moving, if not it break out of function and end game
+    if(isDirectionChanging) return; // it check if snake is moving, if true it break out of function and end game
 
     isDirectionChanging = true;
     const keyPressed = event.keyCode;
